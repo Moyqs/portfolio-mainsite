@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/resources/styles.css">
+    
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="/resources/favicon_io (3)/favicon-32x32.png">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2cb8a8af11.js" crossorigin="anonymous"></script>
+
+    <title>Moy Projects</title>
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar">
+        <img class="logo" src="/resources/favicon_io (3)/android-chrome-192x192.png" alt="">
+
+        
+        <ul class="links">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li id="contact-btn"><a href="#contact">Contact</a></li>
+        </ul>
+
+        <i class="fa-solid fa-bars burger" id="burger"></i>
+        <i class="fa-solid fa-x x-icon" id="x-icon"></i>
+    </nav>
+
+    <ul class="links burger-links" id="burger-links">
+        <li><a class="burger-a" href="#skills">Skills</a></li>
+        <br>
+        <li><a class="burger-a"href="#projects">Projects</a></li>
+        <br>
+        <li id="contact-btn"><a class="burger-a" href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Opening Title -->
+    <div class="opening-div">
+        <h1 class="big-title">Web Developer</h1>
+        <p>Self-taught developer from Penang, Malaysia.</p>
+    </div>
+
+    <img class="profile-pic" src="/resources/images/profile-pic.png" alt="">
+    
+    <div class="video-div">
+        <h2 class="video-text"><i class="fa-solid fa-arrow-down downward-arrow"></i> Video Résumé <i class="fa-solid fa-arrow-down downward-arrow"></i></h2>
+        <iframe class="video" src="https://www.youtube.com/embed/Z4IU0_CrDaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+    <!-- Intro details -->
+    <div class="introdetails-div">
+        <h2 class="self-intro1">I'm Moy. Nice to meet you!</h2>
+        <p class="self-intro2">I started exploring programming in May 2022 
+            using resources like Codecademy, Udemy & Youtube. Decided to pursue web development on Sept 2022. Even to this day, receiving
+        a simple weather API JSON still blows my mind.</p>
+        <p class="self-intro2">It feels like magic.</p>
+    </div>
+
+    <!-- Front-end Back-end -->
+    <div class="skills-div" id="skills" name="skills">
+        <div class="frontend ">
+            <div class="fe-img-div">
+                <img src="/resources/images/frontend2.png" alt="">                
+            </div>
+
+            <div class="frontend-content">
+                <h2 class="skill-title">Frontend</h2>
+                <h2 class="languages">Languages I use:</h2>
+                <h2 class="skill-details">HTML</h2>
+                <h2 class="skill-details">CSS</h2>
+                <h2 class="skill-details">Javascript</h2>
+
+                <h2 class="dev-tools">Dev Tools:</h2>
+                <h2 class="skill-details" id="dev-tools">Bootstrap</h2>
+                <h2 class="skill-details" id="dev-tools">React</h2>
+                <h2 class="skill-details" id="dev-tools">Webpack</h2>
+                <h2 class="skill-details" id="dev-tools">EJS</h2>
+
+            </div>
+
+        </div>
+        <div class="backend">
+            <div class="fe-img-div">
+                <img src="/resources/images/backend2.png" alt="">                
+            </div>
+
+            <div class="frontend-content">
+                <h2 class="skill-title">Backend</h2>
+                <h2 class="languages">Languages I use:</h2>
+                <h2 class="skill-details">Javascript</h2>
+                <h2 class="skill-details">Python</h2>
+
+                <h2 class="dev-tools">Dev Tools:</h2>
+                <h2 class="skill-details" id="dev-tools">NodeJS</h2>
+                <h2 class="skill-details" id="dev-tools">ExpressJS</h2>
+                <h2 class="skill-details" id="dev-tools">Mongodb</h2>
+        </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <h2 class="projects-title" id="projects" name="projects">My Recent Projects</h2>
+    <div class="projects-container-div">
+
+        <!-- Discover new tastes -->
+        <div class="project-div">
+            <img class="screenshot" src="/resources/images/discovernewtaste.png" alt="">
+            <p class="project-description">Don't know what to eat? We got you covered! This app randomly finds a place for you!</p>
+            <div class="built-div">
+                <h2 class="project-built">Built using: </h2>
+                <div class="built-tools">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Javascript</span>
+                    <span>NodeJS</span>
+                    <span>ExpressJS</span>
+                    <span>Google Maps API</span>
+                </div>
+    
+                <div class="project-link-div">
+                    <button class="project-link-btn">
+                        <a href="https://moyportfolio-discovernewtaste.onrender.com/" target="_blank">
+                            <i class="fa-solid fa-arrow-pointer"></i> Demo Site
+                        </a>
+                    </button>
+                    <button class="project-link-btn">
+                        <a href="https://github.com/Moyqs/portfolio-discovernewtaste" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Real-time Chat App -->
+        <div class="project-div">
+            <img class="screenshot" src="/resources/images/chatterapp.png" alt="">
+            <p class="project-description">Real-time chat application powered by Firebase</p>
+            <div class="built-div">
+                <h2 class="project-built">Built using: </h2>
+                <div class="built-tools">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Javascript</span>
+                    <span>Firebase</span>
+                    <span>Webpack</span>
+                    <span>Bootstrap</span>
+                </div>
+    
+                <div class="project-link-div">
+                    <button class="project-link-btn">
+                        <a href="https://fir-4-65d63.web.app/" target="_blank">
+                            <i class="fa-solid fa-arrow-pointer"></i> Demo Site
+                        </a>
+                    </button>
+                    <button class="project-link-btn">
+                        <a href="https://github.com/Moyqs/portfoliio-chatter-app" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </button>
+                </div>
+            </div> 
+        </div>
+
+        <!-- OG Duplicate Site -->
+        <div class="project-div">
+            <img class="screenshot" src="/resources/images/ogfansite.png" alt="">
+            <p class="project-description">CSS practice using og.gg as reference</p>
+            <div class="built-div">
+                <h2 class="project-built">Built using: </h2>
+                <div class="built-tools">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+    
+                <div class="project-link-div">
+                    <button class="project-link-btn">
+                        <a href="https://moyportfolio-ogfansite.onrender.com/" target="_blank">
+                            <i class="fa-solid fa-arrow-pointer"></i> Demo Site
+                        </a>
+                    </button>
+                    <button class="project-link-btn">
+                        <a href="https://github.com/Moyqs/portfolio-ogfansite-css-practice" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </button>
+                </div>
+            </div> 
+        </div>
+
+        <!-- Keeper -->
+        <div class="project-div">
+            <img class="screenshot" src="/resources/images/kepperapp.png" alt="">
+            <p class="project-description">Tutorial guided React app by Angela Yu's Udemy Web Developer Bootcamp, practicing passing props and setting state</p>
+            <div class="built-div">
+                <h2 class="project-built">Built using: </h2>
+                <div class="built-tools">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>React</span>
+                    <span>NodeJS</span>
+                </div>
+    
+                <div class="project-link-div">
+                    <button class="project-link-btn">
+                        <a href="https://moyportfolio-keeperapp.onrender.com/" target="_blank">
+                            <i class="fa-solid fa-arrow-pointer"></i> Demo Site
+                        </a>
+                    </button>
+                    <button class="project-link-btn">
+                        <a href="https://github.com/Moyqs/portfolio-keeperapp" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </button>
+                </div>
+            </div> 
+        </div>
+
+        <!-- Todo -->
+        <div class="project-div">
+            <img class="screenshot" src="/resources/images/todo.png" alt="">
+            <p class="project-description">To-do list with Mongodb database</p>
+            <div class="built-div">
+                <h2 class="project-built">Built using: </h2>
+                <div class="built-tools">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Javascript</span>
+                    <span>Mongodb</span>
+                    <span>NodeJS</span>
+                    <span>ExpressJS</span>
+                    <span>EJS</span>
+                </div>
+    
+                <div class="project-link-div">
+                    <button class="project-link-btn">
+                        <a href="https://moy-portfolio-todo.onrender.com/" target="_blank">
+                            <i class="fa-solid fa-arrow-pointer"></i> Demo Site
+                        </a>
+                    </button>
+                    <button class="project-link-btn">
+                        <a href="https://github.com/Moyqs/portfolio-todo" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </button>
+                </div>
+            </div> 
+        </div>
+
+        <!-- Vowel Counter -->
+        <div class="project-div">
+            <img class="screenshot" src="/resources/images/vowelcounter.png" alt="">
+            <p class="project-description">Vowel Counter Javascript practice</p>
+            <div class="built-div">
+                <h2 class="project-built">Built using: </h2>
+                <div class="built-tools">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Javascript</span>
+                </div>
+    
+                <div class="project-link-div">
+                    <button class="project-link-btn">
+                        <a href="https://moyportfolio-vowelcounter.onrender.com/" target="_blank">
+                            <i class="fa-solid fa-arrow-pointer"></i> Demo Site
+                        </a>
+                    </button>
+                    <button class="project-link-btn">
+                        <a href="https://github.com/Moyqs/portfolio-vowelcounter" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+                    </button>
+                </div>
+            </div> 
+        </div>
+
+    </div>
+
+    <!-- Contacts -->
+    <h2 class="recruit" id="contact" name="contact">Looking to recruit a web developer?</h2>
+    <img class="profile-pic profile-contact" src="/resources/images/profile-pic.png" alt="">
+    <div class="contact-div">
+        <h2 class="contact-details">Mobile: <span>+60-16 499 1227</span></h2>
+        <h2 class="contact-details">Email: <span>moyqs92@gmail.com</span></h2>
+    </div>
+
+    <footer class="footer">
+        <h2>Handcrafted by me © 2023</h2>
+    </footer>
+
+    <script src="/index.js"></script>
+</body>
+</html>
