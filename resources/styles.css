@@ -59,6 +59,28 @@ a {
     border-radius: 70px;
 }
 
+#download-btn {
+    border: 2px solid #A6BB8D;
+    border-radius: 70px;
+    color: #515754;
+    margin-right: 10px;
+}
+
+#download-btn2 {
+    border: 2px solid #A6BB8D;
+    border-radius: 70px;
+    color: #515754;
+    margin-bottom: 10px;
+}
+
+#download-btn:hover,
+#download-btn2:hover {
+    color: white;
+    border: 2px solid #A6BB8D;
+    background-color: #A6BB8D;
+    border-radius: 70px;
+}
+
 #burger,
 #x-icon {
     color: #A6BB8D;
